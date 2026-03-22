@@ -1,0 +1,35 @@
+{
+  "name": "cafasur-school-observer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.98",
+    "@iconify-json/simple-icons": "^1.2.74",
+    "@nuxt/ui": "^4.5.1",
+    "@prisma/adapter-mariadb": "^7.5.0",
+    "@prisma/client": "^7.5.0",
+    "argon2": "^0.44.0",
+    "dotenv": "^17.3.1",
+    "jose": "^6.2.2",
+    "nuxt": "^4.4.2",
+    "tailwindcss": "^4.2.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.15.2",
+    "@types/node": "^25.5.0",
+    "eslint": "^10.0.3",
+    "prisma": "^7.5.0",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.2.5"
+  },
+  "packageManager": "pnpm@10.32.1"
+}

@@ -1,0 +1,9 @@
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - '@prisma/engines'
+  - '@tailwindcss/oxide'
+  - argon2
+  - esbuild
+  - prisma
+  - unrs-resolver
+  - vue-demi
